@@ -1,6 +1,6 @@
 # TVMaze Application
 
-In thisproject, I completed a web application that is a front-end for the TVMaze API.
+In this project, I completed a web application that is a front-end for the TVMaze API.
 
 ## Functionality
 
@@ -16,7 +16,7 @@ There are two main files:
 
 You can type part of a TV show title into the search form and, on submission, it will return information about a hard coded show. It will show a series of cards with information on the show.
 
-### Note how I have structured this code:
+## Note how I have structured this code:
 
 - By having a separate function for searchShows, you can test the “search API for shows” without having to do deal with anything related to the DOM in tests. This also makes this function re-usable if I built a different version of this app with a different front-end (like in React); we could re-use searchShows.
 
